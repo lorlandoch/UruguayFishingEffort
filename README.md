@@ -3,7 +3,8 @@ R scripts to estimate industrial fishing effort combining local registries and G
 
 These scripts are associated to the publication: Estimation of fishing effort by the Uruguayan industrial fleet during 2024, by Luis Orlando and Daniel García. 
 
-Workflow is linear: 
+Workflow is linear 1Data.R >> 2Fleet.R >> 3Port.R >> 4Fishing.R
+
 "1Data.R"           deals with gathering information on the vessels that integrate the Uruguayan industrial fleets from local sources
 "2Fleet.R"          creates a depurated list of GFW vessel id
 "3Port.R"           processes port events, filters by location and gathers information on port time by season
